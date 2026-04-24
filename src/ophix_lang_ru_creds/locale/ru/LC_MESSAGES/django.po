@@ -38,39 +38,3 @@ msgstr "Авторизованные клиенты"
 #: src/ophix_creds/admin.py
 msgid "Notes"
 msgstr "Примечания"
-
-#: src/ophix/core/admin.py
-msgid "Deployment"
-msgstr "Развёртывание"
-
-#: src/ophix/core/admin.py
-msgid "Token"
-msgstr "Токен"
-
-#: src/ophix/core/models.py
-msgid "Deployment reference (repository name or similar identifier)"
-msgstr "Ссылка на развёртывание (имя репозитория или аналогичный идентификатор)"
-
-#: src/ophix/core/models.py
-msgid "Name of the Python virtual environment"
-msgstr "Имя виртуального окружения Python"
-
-#: src/ophix/core/models.py
-msgid "Absolute path to the Python virtual environment"
-msgstr "Абсолютный путь к виртуальному окружению Python"
-
-#: src/ophix/core/models.py
-msgid "Client can read this artifact (can_read)."
-msgstr "Клиент может читать этот артефакт (can_read)."
-
-#: src/ophix/core/models.py
-msgid "Client may overwrite this artifact."
-msgstr "Клиент может перезаписать этот артефакт."
-
-#: src/ophix/core/models.py
-msgid "Client may delete this artifact."
-msgstr "Клиент может удалить этот артефакт."
-
-#: src/ophix/core/models.py
-msgid "Reserved: future client-driven sharing. Currently unused."
-msgstr "Зарезервировано: совместный доступ по инициативе клиента (в разработке). Пока не используется."
