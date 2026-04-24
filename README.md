@@ -1,10 +1,12 @@
 # ophix-lang-ru-creds
 
+> Русский языковой пакет для ophix-creds.
+
 Russian translation pack for [ophix-creds](https://ophix.io).
 
 ## Install
 
-```
+```bash
 pip install ophix-lang-ru-creds
 ```
 
