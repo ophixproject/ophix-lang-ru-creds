@@ -1,7 +1,7 @@
 ---
 title: Учётные данные
 slug: credentials
-order: 10
+order: 100
 section: Учётные данные
 ---
 
