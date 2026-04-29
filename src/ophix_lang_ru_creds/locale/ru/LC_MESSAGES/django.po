@@ -3,10 +3,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ophix-creds 2026.04.25.01\n"
+"Project-Id-Version: ophix-creds 2026.04.29.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 00:00+0000\n"
-"PO-Revision-Date: 2026-04-25 00:00+0000\n"
+"POT-Creation-Date: 2026-04-29 00:00+0000\n"
+"PO-Revision-Date: 2026-04-29 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -15,11 +15,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/ophix_creds/apps.py
+#: src/ophix_creds/apps.py src/ophix_creds/models.py
 msgid "Credentials"
 msgstr "Учётные данные"
 
-#: src/ophix_creds/admin.py
+#: src/ophix_creds/admin.py src/ophix_creds/models.py
 msgid "Credential"
 msgstr "Учётная запись"
 
@@ -35,6 +35,38 @@ msgstr "Авторизованные учётные данные"
 msgid "Authorised Clients"
 msgstr "Авторизованные клиенты"
 
-#: src/ophix_creds/admin.py
+#: src/ophix_creds/admin.py src/ophix_creds/models.py
 msgid "Notes"
 msgstr "Примечания"
+
+#: src/ophix_creds/models.py
+msgid "name"
+msgstr "название"
+
+#: src/ophix_creds/models.py
+msgid "description"
+msgstr "описание"
+
+#: src/ophix_creds/models.py
+msgid "secret JSON"
+msgstr "секретный JSON"
+
+#: src/ophix_creds/models.py
+msgid "enabled"
+msgstr "включено"
+
+#: src/ophix_creds/models.py
+msgid "updated at"
+msgstr "обновлено"
+
+#: src/ophix_creds/models.py
+msgid "credential"
+msgstr "учётная запись"
+
+#: src/ophix_creds/models.py
+msgid "Client Credential"
+msgstr "Учётная запись клиента"
+
+#: src/ophix_creds/models.py
+msgid "Client Credentials"
+msgstr "Учётные записи клиентов"
